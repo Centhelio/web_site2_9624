@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #030712;
+}
+
+.wrapper {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1536px;
+  margin-inline: auto;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+}
+
+.itemLeft,
+.itemRight {
+  width: 200px;
+  border-radius: 6px;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+}
+
+.itemLeft {
+  left: max(calc(200px * 14), 100%);
+  animation-name: scrollLeft;
+}
+
+.itemRight {
+  right: max(calc(200px * 14), calc(100% + 200px));
+  animation-name: scrollRight;
+}
+
+.item1 {
+  animation-delay: calc(45s / 14 * (14 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(45s / 14 * (14 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(45s / 14 * (14 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(45s / 14 * (14 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(45s / 14 * (14 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(45s / 14 * (14 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(45s / 14 * (14 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(45s / 14 * (14 - 8) * -1);
+}
+
+.item9 {
+    animation-delay: calc(45s / 14 * (14 - 9) * -1);
+}
+
+.item10 {
+    animation-delay: calc(45s / 14 * (14 - 10) * -1);
+}
+
+.item11 {
+    animation-delay: calc(45s / 14 * (14 - 11) * -1);
+}
+
+.item12 {
+    animation-delay: calc(45s / 14 * (14 - 12) * -1);
+}
+
+.item13 {
+    animation-delay: calc(45s / 14 * (14 - 13) * -1);
+}
+
+.item14 {
+    animation-delay: calc(45s / 14 * (14 - 14) * -1);
+}
