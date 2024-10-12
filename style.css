@@ -1,3 +1,23 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------
+BASE
+------------------------------------------------------------------------------------------------------------------------------------ */
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Georgia Times, New Roman, serif;
+}
+
 *{
     font-family: "Montserrat", sans-serif;
 }
@@ -5,6 +25,10 @@
 :root{
     --bs-body-font-family: 'Montserrat', sans-serif;
 }
+
+
+
+
 
 .back-video{
     right: 0;
@@ -245,4 +269,5 @@
 p{
     font-weight: 500;
 }
+
 
