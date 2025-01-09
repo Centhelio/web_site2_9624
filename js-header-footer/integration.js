@@ -17,7 +17,7 @@ function loadFooterWithDelay() {
 }
 
 // Set a delay of 200 milliseconds before sending the request
-setTimeout(loadFooterWithDelay, 100);
+setTimeout(loadFooterWithDelay, 500);
 
 
 // ------------------------------------------------------------------------------------------------------------ //
@@ -39,7 +39,7 @@ function loadHeaderWithDelay() {
 }
 
 // Set a delay of 200 milliseconds before sending the request
-setTimeout(loadHeaderWithDelay, 100);
+setTimeout(loadHeaderWithDelay, 500);
 
 
 // ------------------------------------------------------------------------------------------------------------ //
@@ -61,7 +61,7 @@ function loadFrenchHeaderWithDelay() {
 }
 
 // Set a delay of 200 milliseconds before sending the request
-setTimeout(loadFrenchHeaderWithDelay, 100);
+setTimeout(loadFrenchHeaderWithDelay, 500);
 
 
 // ------------------------------------------------------------------------------------------------------------ //
@@ -83,7 +83,7 @@ function loadFrenchFooterWithDelay() {
 }
 
 // Set a delay of 200 milliseconds before sending the request
-setTimeout(loadFrenchFooterWithDelay, 100);
+setTimeout(loadFrenchFooterWithDelay, 500);
 
 
 // ------------------------------------------------------------------------------------------------------------ //

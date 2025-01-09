@@ -15,15 +15,15 @@ body{
     margin: 0px;
     padding: 0px;
 
-    font-family: Georgia Times, New Roman, serif;
+    font-family: "Overpass", serif;
 }
 
 *{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Overpass", serif;
 }
 
 :root{
-    --bs-body-font-family: 'Montserrat', sans-serif;
+    --bs-body-font-family: "Overpass", serif;
 }
 
 
@@ -274,4 +274,8 @@ p{
 
 h1, h2, h3, h4{
     font-weight: 600;
+}
+
+.team_photo{
+    border: 2px solid #07272D;
 }
