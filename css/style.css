@@ -1,0 +1,279 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------
+BASE
+------------------------------------------------------------------------------------------------------------------------------------ */
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Overpass", serif;
+}
+
+*{
+    font-family: "Overpass", serif;
+}
+
+:root{
+    --bs-body-font-family: "Overpass", serif;
+}
+
+
+
+.back-video{
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
+    z-index: -100;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.header{
+    background-color: #07272D;
+}
+
+.our_experience_video{
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .our_experience_video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .our_experience_video{
+        width: auto;
+    }
+}
+
+
+.people{
+    width: 60%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.people_q{
+    width: 50%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.people_placement{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    text-align: center;
+}
+
+.pictograme{
+    width: 40%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+
+.values_pictograme{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    text-align: center;
+    margin: 2% auto; 
+}
+
+.title_our_values{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+
+.c-item{
+    height: 500px;
+    width: 1000px;
+}
+
+.c-item-BG{
+    height: 100vh;
+}
+
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.c-img-BG{
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.item{
+    padding-bottom: 10%;
+}
+
+
+.apple{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+
+.btn_red{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #DA291C;
+    background-color: #07272D;
+    border: 4px solid #DA291C;
+    border-radius: 5px;
+   
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn_red:hover{
+    transform: translateY(-10px);
+    color: #07272D;
+    background-color: #DA291C;
+}
+
+.btn_black{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #07272D;
+    background-color: #DA291C;
+    border: 4px solid #07272D;
+    border-radius: 5px;
+   
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn_black:hover{
+    transform: translateY(-10px);
+    color: #DA291C;
+    background-color: #07272D;
+}
+
+.btn_white{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    color: #07272D;
+    background-color: #DA291C;
+    border-radius: 5px;
+   
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn_white:hover{
+    transform: translateY(-10px);
+    color: #DA291C;
+    background-color: #07272D;
+}
+
+.btn_red_header{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #DA291C;
+   
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn_red_header:hover{
+    color: #07272D;
+    background-color: #DA291C;
+}
+
+.titre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    position: absolute;
+    align-items: center;
+    top: 250px;
+}
+
+.titre_2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    position: absolute;
+    align-items: center;
+    top: 350px;
+}
+
+.card-mec{
+    border: none;
+}
+
+
+p{
+    font-weight: 500;
+}
+
+
+h1, h2, h3, h4{
+    font-weight: 600;
+}
+
+.team_photo{
+    border: 2px solid #07272D;
+}
