@@ -29,7 +29,7 @@ navbar.open("GET", "js-header-footer/header.html", true);
 
 navbar.onreadystatechange = function () {
     if (navbar.readyState === 4 && navbar.status === 200) {
-        document.getElementById("header").innerHTML = header.responseText;
+        document.getElementById("header").innerHTML = navbar.responseText;
     }
 };
 
@@ -51,7 +51,7 @@ navbar_fr.open("GET", "js-header-footer/header_french.html", true);
 
 navbar_fr.onreadystatechange = function () {
     if (navbar_fr.readyState === 4 && navbar_fr.status === 200) {
-        document.getElementById("header_french").innerHTML = header_french.responseText;
+        document.getElementById("header_french").innerHTML = navbar_fr.responseText;
     }
 };
 
