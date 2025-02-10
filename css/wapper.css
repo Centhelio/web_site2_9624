@@ -58,6 +58,7 @@ body {
 
 .item1 {
   animation-delay: calc(45s / 12 * (12 - 1) * -1);
+  width: 8%;
 }
 
 .item2 {
