@@ -26,8 +26,6 @@ body{
     --bs-body-font-family: "Overpass", serif;
 }
 
-
-
 .back-video{
     right: 0;
     bottom: 0;
@@ -276,4 +274,20 @@ h1, h2, h3, h4{
 
 .team_photo{
     border: 2px solid #07272D;
+}
+
+.hero{
+    background: url(../images/Équipe_saison_2025.jpg) center right / cover no-repeat;
+}
+
+.hero .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 1100px;
+}
+
+.hero h1{
+    font-size: 65px;
 }
