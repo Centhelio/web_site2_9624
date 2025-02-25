@@ -276,18 +276,7 @@ h1, h2, h3, h4{
     border: 2px solid #07272D;
 }
 
-.hero{
-    background: url(../images/Équipe_saison_2025.jpg) center right / cover no-repeat;
-}
-
-.hero .wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    min-height: 1100px;
-}
-
-.hero h1{
-    font-size: 65px;
+.hero img{
+    width: 100%;
+    height: 1100px;
 }
