@@ -1,3 +1,7 @@
+:root {
+  --taille: 16;
+}
+
 *,
 *::before,
 *::after {
@@ -16,10 +20,19 @@ body {
   width: 100%;
   max-width: 1536px;
   margin-inline: auto;
-  height: 100px;
+  height: 150px;
   position: relative;
   overflow: hidden;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.wrapper .smaller{
+  width: 10%;
 }
 
 @keyframes scrollLeft {
@@ -47,63 +60,76 @@ body {
 }
 
 .itemLeft {
-  left: max(calc(200px * 12), 100%);
+  left: max(calc(200px * var(--taille)), 100%);
   animation-name: scrollLeft;
 }
 
 .itemRight {
-  right: max(calc(200px * 13), calc(100% + 200px));
+  right: max(calc(200px * var(--taille)), calc(100% + 200px));
   animation-name: scrollRight;
 }
 
 .item1 {
-  animation-delay: calc(45s / 13 * (13 - 1) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(45s / 13 * (13 - 2) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(45s / 13 * (13 - 3) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(45s / 13 * (13 - 4) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(45s / 13 * (13 - 5) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(45s / 13 * (13 - 6) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(45s / 13 * (13 - 7) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(45s / 13 * (13 - 8) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 8) * -1);
 }
 
 .item9 {
-  animation-delay: calc(45s / 13 * (13 - 9) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 9) * -1);
 }
 
 .item10 {
-  animation-delay: calc(45s / 13 * (13 - 10) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 10) * -1);
 }
 
 .item11 {
-  animation-delay: calc(45s / 13 * (13 - 11) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 11) * -1);
 }
 
 .item12 {
-  animation-delay: calc(45s / 13 * (13 - 12) * -1);
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 12) * -1);
 }
 
-.item12 {
-  animation-delay: calc(45s / 13 * (13 - 13) * -1);
+.item13 {
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 13) * -1);
 }
+
+.item14 {
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 14) * -1);
+}
+
+.item15 {
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 15) * -1);
+}
+
+.item16 {
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 16) * -1);
+}
+
