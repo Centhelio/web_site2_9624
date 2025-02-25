@@ -57,49 +57,53 @@ body {
 }
 
 .item1 {
-  animation-delay: calc(45s / 12 * (12 - 1) * -1);
+  animation-delay: calc(45s / 13 * (13 - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(45s / 12 * (12 - 2) * -1);
+  animation-delay: calc(45s / 13 * (13 - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(45s / 12 * (12 - 3) * -1);
+  animation-delay: calc(45s / 13 * (13 - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(45s / 12 * (12 - 4) * -1);
+  animation-delay: calc(45s / 13 * (13 - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(45s / 12 * (12 - 5) * -1);
+  animation-delay: calc(45s / 13 * (13 - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(45s / 12 * (12 - 6) * -1);
+  animation-delay: calc(45s / 13 * (13 - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(45s / 12 * (12 - 7) * -1);
+  animation-delay: calc(45s / 13 * (13 - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(45s / 12 * (12 - 8) * -1);
+  animation-delay: calc(45s / 13 * (13 - 8) * -1);
 }
 
 .item9 {
-  animation-delay: calc(45s / 12 * (12 - 9) * -1);
+  animation-delay: calc(45s / 13 * (13 - 9) * -1);
 }
 
 .item10 {
-  animation-delay: calc(45s / 12 * (12 - 10) * -1);
+  animation-delay: calc(45s / 13 * (13 - 10) * -1);
 }
 
 .item11 {
-  animation-delay: calc(45s / 12 * (12 - 11) * -1);
+  animation-delay: calc(45s / 13 * (13 - 11) * -1);
 }
 
 .item12 {
-  animation-delay: calc(45s / 12 * (12 - 12) * -1);
+  animation-delay: calc(45s / 13 * (13 - 12) * -1);
+}
+
+.item12 {
+  animation-delay: calc(45s / 13 * (13 - 13) * -1);
 }
