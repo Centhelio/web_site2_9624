@@ -2,15 +2,17 @@
 BASE
 ------------------------------------------------------------------------------------------------------------------------------------ */
 
-html{
+html {
     box-sizing: border-box;
 }
 
-*,*:before, *:after{
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
-body{
+body {
     background-color: black;
     margin: 0px;
     padding: 0px;
@@ -18,22 +20,22 @@ body{
     font-family: "Overpass", serif;
 }
 
-*{
+* {
     font-family: "Overpass", serif;
 }
 
 
-.wrapper{
+.wrapper {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-:root{
+:root {
     --bs-body-font-family: "Overpass", serif;
 }
 
-.back-video{
+.back-video {
     right: 0;
     bottom: 0;
     max-width: 100%;
@@ -41,25 +43,25 @@ body{
     z-index: -100;
 }
 
-@media(min-aspect-ratio: 16/9){
-    .back-video{
+@media(min-aspect-ratio: 16/9) {
+    .back-video {
         width: 100%;
         height: auto;
     }
 }
 
-@media(max-aspect-ratio: 16/9){
-    .back-video{
+@media(max-aspect-ratio: 16/9) {
+    .back-video {
         width: auto;
         height: 100%;
     }
 }
 
-.header{
+.header {
     background-color: #07272D;
 }
 
-.our_experience_video{
+.our_experience_video {
     right: 0;
     bottom: 0;
     max-width: 100%;
@@ -67,33 +69,33 @@ body{
     height: auto;
 }
 
-@media(min-aspect-ratio: 16/9){
-    .our_experience_video{
+@media(min-aspect-ratio: 16/9) {
+    .our_experience_video {
         width: 100%;
         height: auto;
     }
 }
 
-@media(max-aspect-ratio: 16/9){
-    .our_experience_video{
+@media(max-aspect-ratio: 16/9) {
+    .our_experience_video {
         width: auto;
     }
 }
 
 
-.people{
+.people {
     width: 60%;
     position: relative;
     padding-bottom: 10%;
 }
 
-.people_q{
+.people_q {
     width: 50%;
     position: relative;
     padding-bottom: 10%;
 }
 
-.people_placement{
+.people_placement {
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -101,23 +103,23 @@ body{
     text-align: center;
 }
 
-.pictograme{
+.pictograme {
     width: 40%;
     position: relative;
     padding-bottom: 10%;
 }
 
 
-.values_pictograme{
+.values_pictograme {
     position: relative;
     display: flex;
     justify-content: space-evenly;
     z-index: 2;
     text-align: center;
-    margin: 2% auto; 
+    margin: 2% auto;
 }
 
-.title_our_values{
+.title_our_values {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
@@ -125,40 +127,40 @@ body{
 }
 
 
-.c-item{
+.c-item {
     height: 500px;
     width: 1000px;
 }
 
-.c-item-BG{
+.c-item-BG {
     height: 100vh;
 }
 
 
-.c-img{
+.c-img {
     height: 100%;
     object-fit: cover;
 
 }
 
-.c-img-BG{
+.c-img-BG {
     height: 100%;
     object-fit: cover;
 
 }
 
-.item{
+.item {
     padding-bottom: 10%;
 }
 
 
-.apple{
+.apple {
     padding-top: 5%;
     padding-bottom: 2%;
 }
 
 
-.btn_red{
+.btn_red {
     font-size: 2rem;
     font-weight: 700;
     padding: 0.5em 1em;
@@ -166,19 +168,19 @@ body{
     background-color: #07272D;
     border: 4px solid #DA291C;
     border-radius: 5px;
-   
+
     text-decoration: none;
 
     transition: all 0.3s ease;
 }
 
-.btn_red:hover{
+.btn_red:hover {
     transform: translateY(-10px);
     color: #07272D;
     background-color: #DA291C;
 }
 
-.btn_black{
+.btn_black {
     font-size: 2rem;
     font-weight: 700;
     padding: 0.5em 1em;
@@ -186,59 +188,59 @@ body{
     background-color: #DA291C;
     border: 4px solid #07272D;
     border-radius: 5px;
-   
+
     text-decoration: none;
 
     transition: all 0.3s ease;
 }
 
-.btn_black:hover{
+.btn_black:hover {
     transform: translateY(-10px);
     color: #DA291C;
     background-color: #07272D;
 }
 
-.btn_white{
+.btn_white {
     font-size: 2rem;
     font-weight: 600;
     padding: 0.5em 1em;
     color: #07272D;
     background-color: #DA291C;
     border-radius: 5px;
-   
+
     text-decoration: none;
 
     transition: all 0.3s ease;
 }
 
-.btn_white:hover{
+.btn_white:hover {
     transform: translateY(-10px);
     color: #DA291C;
     background-color: #07272D;
 }
 
-.btn_red_header{
+.btn_red_header {
     font-size: 1rem;
     font-weight: 700;
     padding: 0.5em 1em;
     color: #DA291C;
-   
+
     text-decoration: none;
 
     transition: all 0.3s ease;
 }
 
-.btn_red_header:hover{
+.btn_red_header:hover {
     color: #07272D;
     background-color: #DA291C;
 }
 
-.titre{
+.titre {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-weight: 600;
-  
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -249,12 +251,12 @@ body{
     top: 250px;
 }
 
-.titre_2{
+.titre_2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10rem;
     font-weight: 600;
-  
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -265,31 +267,35 @@ body{
     top: 350px;
 }
 
-.card-mec{
+.card-mec {
     border: none;
 }
 
 
-p{
+p {
     font-weight: 500;
 }
 
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     font-weight: 600;
 }
 
-.team_photo{
+.team_photo {
     border: 2px solid #07272D;
 }
 
 .hero .wrapper {
-    background-image: url(../images/Équipe_saison_2025.jpg);
+    background-image: url(../images/Prix_rising_star_MTL_2025.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-height: 130vh; /* At least 50% of viewport height */
+    min-height: 130vh;
+    /* At least 50% of viewport height */
     height: auto;
 
     display: flex;
@@ -299,18 +305,21 @@ h1, h2, h3, h4{
 
 @media (max-width: 768px) {
     .hero .wrapper {
-        min-height: 50vh; /* Reduce height on smaller screens */
-        padding: 20px; /* Add padding if necessary */
+        min-height: 50vh;
+        /* Reduce height on smaller screens */
+        padding: 20px;
+        /* Add padding if necessary */
     }
 }
 
 @media (max-width: 480px) {
     .hero .wrapper {
-        min-height: 30vh; /* Further adjust for mobile */
+        min-height: 30vh;
+        /* Further adjust for mobile */
     }
 }
 
-.albany_2025_texte{
+.albany_2025_texte {
     text-align: center;
     display: flex;
     align-items: center;
@@ -318,4 +327,56 @@ h1, h2, h3, h4{
 
 
     height: 400px;
+}
+
+.moto span {
+    color: #DA291C;
+}
+
+.equipe {
+    background-color: #DA291C;
+}
+
+.team {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+.team p {
+    font-size: 20px;
+    text-align: center;
+    color: #fff4f4;
+    padding: 0 100px 0 100px;
+    font-weight: 600;
+}
+
+.team h1 {
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff4f4;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.equipe .video {
+    padding: 0 20px 150px 20px;
+}
+
+.valeur {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.valeur:hover {
+    transform: scale(1.2);
 }
