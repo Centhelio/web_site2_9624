@@ -1,5 +1,5 @@
 :root {
-  --taille: 19;
+  --taille: 20;
 }
 
 *,
@@ -143,4 +143,8 @@ body {
 
 .item19 {
   animation-delay: calc(45s / var(--taille) * (var(--taille) - 19) * -1);
+}
+
+.item20 {
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 20) * -1);
 }
