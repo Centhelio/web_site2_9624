@@ -139,6 +139,7 @@ body {
 
 .c-img {
     height: 100%;
+    width: 100%;
     object-fit: cover;
 
 }
@@ -380,3 +381,5 @@ h4 {
 .valeur:hover {
     transform: scale(1.2);
 }
+
+
