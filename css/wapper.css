@@ -1,5 +1,5 @@
 :root {
-  --taille: 17;
+  --taille: 22;
 }
 
 *,
@@ -135,4 +135,24 @@ body {
 
 .item17{
   animation-delay: calc(45s / var(--taille) * (var(--taille) - 17) * -1);
+}
+
+.item18{
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 18) * -1);
+}
+
+.item19{
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 19) * -1);
+}
+
+.item20{
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 20) * -1);
+}
+
+.item21{
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 21) * -1);
+}
+
+.item22{
+  animation-delay: calc(45s / var(--taille) * (var(--taille) - 22) * -1);
 }
